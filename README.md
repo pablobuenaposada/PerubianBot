@@ -34,6 +34,13 @@ uv sync
 uv run perubianbot.py
 ```
 
+### Ejecución con Docker
+
+```sh
+docker build -t perubianbot .
+docker run --rm -it -e TZ=Europe/Madrid perubianbot
+```
+
 ## Disclaimer:
 > [!IMPORTANT]
 > 1. <b>Uso de la Aplicación</b><br>

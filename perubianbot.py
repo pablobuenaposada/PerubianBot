@@ -103,7 +103,7 @@ def configurar_navegador():
                 options.add_argument("--headless")
 
             firefox_service = FirefoxService(
-                GeckoDriverManager().install(),
+                os.environ.get("GECKODRIVER_PATH") or GeckoDriverManager().install(),
                 log_path=PATH_TO_DEV_NULL
             )
 

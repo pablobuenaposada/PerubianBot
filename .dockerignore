@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!.python-version
+!README.md
+!LICENSE
+!perubianbot.py
+!webs.py
